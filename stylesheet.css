@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
 * {
+  font-family: 'Permanent Marker', cursive;
   background-color: black;
 }
 
@@ -6,3 +9,27 @@ h1{
   color: orange;
   text-align: center;
 }
+
+.block{
+  background-color:orange;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  font-size: 8rem;
+  text-align: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 600px;
+ margin: 0 auto;
+}
+
+[data-player="o"] .block {
+  cursor:url(img/O.png) 40 40 ,auto;
+}
+[data-player="x"] .block {
+  cursor:url(img/X.png) 40 40,auto;
+}
+
