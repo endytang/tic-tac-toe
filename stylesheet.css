@@ -33,3 +33,10 @@ h1{
   cursor:url(img/X.png) 40 40,auto;
 }
 
+#resetButton{
+  background-color: white;
+}
+
+.winningText{
+  color: green;
+}
